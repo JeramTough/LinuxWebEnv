@@ -16,7 +16,7 @@ cd ../../bin
 abc=$(grep '#Java Environment configuration' /etc/profile)
 if [ -n  "${abc}" ]||[ "${JAVA_HOME}" != "" ]
 then
-	echo "The environment of jdk have configured"
+	echo "Your environment of jdk have configured"
 else
 	sed -i "\$a \\\n\n#Java Environment configuration\
 	\nexport JAVA_HOME=${jdkEnvironment}\

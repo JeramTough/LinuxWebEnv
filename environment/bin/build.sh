@@ -4,7 +4,6 @@ lalala="/environment/bin"
 if [[ $(pwd) == *$lalala* ]]
 then
 	sh configJdk.sh
-	sh configJre.sh
 	read -p "do you want to continue to configurate the environment of tomcat[yes/no]" isContinued
 	if [ "${isContinued}" == "y" ]||[ "${isContinued}" == "Y" ]||[ "${isContinued}" == "YES" ]||[ "${isContinued}" == "yes" ]
 	then
