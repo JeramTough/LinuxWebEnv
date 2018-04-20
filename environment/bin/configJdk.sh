@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "===================================================================================="
-echo-e "start to configure the environment of jdk\nwaitting..."
+echo -e "start to configure the environment of jdk\nwaitting..."
 
 if [ ! -d ../java/jdk* ]
 then
